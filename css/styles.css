@@ -32,7 +32,12 @@ a {
 
 .nav-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
+}
+
+.nav-item {
+    padding: 24px 0;
+
 }
 
 
