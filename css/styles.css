@@ -22,7 +22,7 @@ a {
     display: flex;
     width: 1158px;
     padding: 0 15px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .header-nav {
@@ -33,6 +33,7 @@ a {
 .nav-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav-link {
