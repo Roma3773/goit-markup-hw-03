@@ -22,10 +22,12 @@ a {
     display: flex;
     width: 1158px;
     padding: 0 15px;
+    margin: 0;
 }
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .nav-list {
@@ -42,7 +44,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
+    margin-right: 76px
 }
 
 .header-logo .logo-part {
