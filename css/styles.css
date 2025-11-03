@@ -192,6 +192,7 @@ a {
 
 .team-member {
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% – 72px)/4);
 }
 
 .team-list {
@@ -203,7 +204,7 @@ a {
     background-color: #fff;
     display: flex;
     gap: 24px;
-    width: calc((100% – 72px)/4);
+
 }
 
 .team-member-name {
