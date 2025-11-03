@@ -140,7 +140,6 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0;
-    width: calc((100% – 72px)/4);
 
 }
 
@@ -276,10 +275,8 @@ a {
     color: #f4f4fd;
 }
 
-.logo {
+.logo footer-logo {
     display: inline-block;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .info-footer {
