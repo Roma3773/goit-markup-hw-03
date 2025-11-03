@@ -43,6 +43,8 @@ a {
 
 
 .logo {
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -50,7 +52,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
+    margin-right: 76px;
 }
 
 .header-logo .logo-part {
@@ -304,10 +306,10 @@ a {
     color: #f4f4fd;
 }
 
-.logo {
+/* .logo {
     display: inline-block;
     margin-bottom: 16px;
-}
+} */
 
 .info-footer {
     max-width: 264px;
