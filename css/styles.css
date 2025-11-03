@@ -133,13 +133,19 @@ a {
     background-color: #404bbf;
 }
 
+.visually-hidden {}
+
+.goals-list {
+    display: flex;
+    gap: 24px;
+}
+
 .goal {
     display: flex;
     gap: 24px;
     width: calc((100% – 72px)/4);
 }
 
-.visually-hidden {}
 
 .goals-section {
     padding: 120px 0;
