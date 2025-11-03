@@ -132,6 +132,10 @@ a {
     background-color: #404bbf;
 }
 
+.goals-section {
+    padding: 120px 0;
+}
+
 .goal-title {
     font-weight: 500;
     font-size: 20px;
