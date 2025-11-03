@@ -137,6 +137,11 @@ a {
 .goals-list {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    width: calc((100% – 72px)/4);
+
 }
 
 .goal {
