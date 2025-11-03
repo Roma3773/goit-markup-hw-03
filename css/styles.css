@@ -174,10 +174,13 @@ a {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team-member {
     background-color: #fff;
+    display: flex;
+    gap: 24px;
 }
 
 .team-member-name {
