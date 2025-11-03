@@ -308,3 +308,7 @@ a {
 .info-footer {
     max-width: 264px;
 }
+
+.visually-hidden {
+    visibility: hidden;
+}
