@@ -317,3 +317,7 @@ a {
     visibility: hidden;
     display: none;
 }
+
+.team-member:nth-child(1) {
+    width: calc(100% - (72px / 4));
+}
