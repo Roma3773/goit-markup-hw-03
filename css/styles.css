@@ -249,6 +249,13 @@ a {
 
 }
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
 .portfolio-item {
     background-color: #fff;
     display: flex;
@@ -258,7 +265,7 @@ a {
     width: calc((100% – 48px)/3);
 }
 
-.portfolio-item-name {
+. .portfolio-item-name {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
