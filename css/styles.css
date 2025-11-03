@@ -275,8 +275,9 @@ a {
     color: #f4f4fd;
 }
 
-.logo footer-logo {
+.footer-logo {
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .info-footer {
