@@ -18,18 +18,22 @@ a {
     text-decoration: none;
 }
 
+element.style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
 
 
-.container header-container {
+.container {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
 .header-nav {
