@@ -322,3 +322,12 @@ h2.visually-hidden {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.footer-logo {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
