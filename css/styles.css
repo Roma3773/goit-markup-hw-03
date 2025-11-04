@@ -143,15 +143,14 @@ a {
     justify-content: space-between;
     margin: 0;
 
+
 }
 
-.goal:first-of-type {
-    width: calc((100% – 72px)/4);
-}
 
 .goal {
     display: flex;
     gap: 24px;
+    width: calc((100% – 72px) / 4);
 
 }
 
@@ -196,10 +195,6 @@ a {
     margin-bottom: 72px;
 }
 
-.team-member {
-    border-radius: 0px 0px 4px 4px;
-    width: calc((100% – 72px)/4);
-}
 
 .team-list {
     display: flex;
@@ -210,7 +205,9 @@ a {
     background-color: #fff;
     display: flex;
     gap: 24px;
-
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% – 72px)/4);
+    flex-basis: calc((100% - 3 * 24px) / 4 72px) / 4))
 }
 
 .team-member-name {
@@ -315,8 +312,4 @@ a {
     max-width: 264px;
 }
 
-h2.visually-hidden {}
-
-.team-member:nth-child(1) {
-    width: calc(100% - (72px / 4));
-}
+.visually-hidden {}
