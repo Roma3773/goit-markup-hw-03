@@ -201,112 +201,113 @@ a {
 
 .team-list {
     display: flex;
-    gap: 24px
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
 .team-member {
     background-color: #fff;
-    display: flex;
-    gap: 24px;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% – 48px) / 3);
-}
-
-.team-member-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+    flex-basis: calc((100% - 3 * 24px) / 4);
     text-align: center;
-    color: #2e2f42;
-    text-align: center;
-    margin-bottom: 8px;
-}
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-.team-member-status {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
+    .team-member-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-align: center;
+        margin-bottom: 8px;
+    }
 
-.portfolio-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+    .team-member-status {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+    }
 
-.portfolio-title {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 72px;
-}
+    .portfolio-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 
-.container-div {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
+    .portfolio-title {
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+        margin-bottom: 72px;
+    }
 
-}
+    .container-div {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
 
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}
+    }
 
-.portfolio-item {
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    width: calc((100% – 48px)/3);
-}
+    .portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+    }
 
-.portfolio-div {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
+    .portfolio-item {
+        background-color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+        width: calc((100% – 48px)/3);
+    }
 
-. .portfolio-item-name {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    color: #2e2f42;
-    margin-bottom: 8px;
-}
+    .portfolio-div {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+    }
 
-.portfolio-item-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+    . .portfolio-item-name {
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        line-height: 1.2;
+        color: #2e2f42;
+        margin-bottom: 8px;
+    }
 
-.page-footer {
-    background-color: #2e2f42;
-    padding: 100px 0;
-}
+    .portfolio-item-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
 
-.info-footer {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-}
+    .page-footer {
+        background-color: #2e2f42;
+        padding: 100px 0;
+    }
 
-. .info-footer {
-    max-width: 264px;
-}
+    .info-footer {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+    }
 
-.visually-hidden {}
+    . .info-footer {
+        max-width: 264px;
+    }
+
+    .visually-hidden {}
