@@ -33,6 +33,7 @@ a {
 .header-nav {
     display: flex;
     align-items: center;
+
 }
 
 .nav-list {
@@ -211,6 +212,10 @@ a {
     gap: 24px;
     flex-wrap: wrap;
 
+}
+
+.team-member-img {
+    display: block;
 }
 
 .team-member {
