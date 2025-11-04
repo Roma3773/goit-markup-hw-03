@@ -141,18 +141,20 @@ a {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin: 0;
+    padding: 0;
+    list-style: none;
 
 
 }
 
 
 .goal {
-    display: flex;
     gap: 24px;
-    width: calc((100% – 72px) / 4);
-
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 
