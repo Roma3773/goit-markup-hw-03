@@ -47,9 +47,7 @@ a {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 
 
 }
@@ -156,6 +154,7 @@ a {
     color: #ffffff;
     margin: 0 auto 48px;
     max-width: 496px;
+
 }
 
 .button {
@@ -173,6 +172,7 @@ a {
     border-radius: 4px;
     cursor: pointer;
     margin: 0 auto;
+
 }
 
 .button:focus,
@@ -249,9 +249,6 @@ a {
 
 }
 
-.team-member-img {
-    display: block;
-}
 
 .team-member {
     width: calc((100% - 72px) / 4);
