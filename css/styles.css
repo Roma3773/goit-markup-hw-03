@@ -146,7 +146,7 @@ a {
 }
 
 .goal:first-of-type {
-    flex-basis: calc((100% – 72px)/4);
+    width: calc((100% – 72px)/4);
 }
 
 .goal {
@@ -315,10 +315,7 @@ a {
     max-width: 264px;
 }
 
-.visually-hidden {
-    visibility: hidden;
-    display: none;
-}
+h2.visually-hidden {}
 
 .team-member:nth-child(1) {
     width: calc(100% - (72px / 4));
